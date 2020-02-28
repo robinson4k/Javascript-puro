@@ -3,7 +3,7 @@ class DateHelper {
 		throw new Error('DateHelper não pode ser instanciada')
 	}
 
-	static dataPataTexto(data) {
+	static dataParaTexto(data) {
 		return `${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()}`
 	}
 
